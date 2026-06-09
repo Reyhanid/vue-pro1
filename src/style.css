@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+:root {
+  --font-display: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+@layer utilities {
+  .grid-cols-70\/30 {
+    grid-template-columns: 70% 30%;
+  }
+}
